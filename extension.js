@@ -115,6 +115,6 @@
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://raw.githack.com/jakechapy/bot/master/basicBot.js", extend);
+    $.getScript("https://rawcdn.githack.com/jakechapy/bot/e6bf6d500b4883908422dd0a730be6540b3316e1/basicBot.js", extend);
 
 }).call(this);
