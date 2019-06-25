@@ -48,8 +48,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: 'basicBot',
         language: 'english',
-        chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
-        scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
+        chatLink: 'https://raw.githack.com/jakechapy/bot/master/lang/en.json',
+        scriptLink: 'https://raw.githack.com/jakechapy/bot/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -105,7 +105,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: '!',
         blacklists: {
             NSFW: 'https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json',
@@ -115,6 +115,6 @@
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/basicBot/source/master/basicBot.js", extend);
+    $.getScript("https://raw.githack.com/jakechapy/bot/master/basicBot.js", extend);
 
 }).call(this);
